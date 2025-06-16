@@ -2,7 +2,7 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
-    <h1 align="center">## API RESTful com Yii2</h1>
+    <h1 align="center">API RESTful com Yii2</h1>
     <br>
 </p>
 
@@ -12,7 +12,7 @@ Esta é uma API RESTful de exemplo construída utilizando o framework PHP Yii2. 
 
 O Yii 2 Advanced Project Template [Yii 2](https://www.yiiframework.com/) foi usado como base.
 
-## Funcionalidades (Endpoints)
+## Endpoints
 
 ---
 
@@ -45,7 +45,7 @@ A API de Produtos expõe os seguintes endpoints principais para gerenciamento de
 * **`DELETE /api/produtos/{id}`**: Remove um produto existente pelo ID.
     * **Resposta**: Retorna um status de sucesso (204 No Content ou 200 OK com mensagem vazia/sucesso).
 
-## Tecnologias Utilizadas
+## Tecnologias utilizadas
 
 ---
 
@@ -55,7 +55,7 @@ A API de Produtos expõe os seguintes endpoints principais para gerenciamento de
 * **Composer**: Gerenciador de dependências para PHP.
 * **Git**: Sistema de controle de versão.
 
-## Como Rodar o Projeto Localmente
+## Como rodar localmente
 
 ---
 
@@ -117,7 +117,7 @@ Certifique-se de ter instalado em sua máquina:
         ```
         A API estará acessível em `http://localhost:8080/api/produtos`.
 
-## Como Testar a API
+## Testando
 
 ---
 
@@ -127,7 +127,7 @@ Após configurar o projeto, você pode testar os endpoints usando ferramentas co
 
 * **Forçando JSON no Navegador:** Se o navegador estiver retornando XML, você pode adicionar `?_format=json` ao final da URL para forçar o retorno em JSON, por exemplo: `http://localhost:8080/api/produtos?_format=json`.
 
-## Próximos Passos e Melhorias Futuras
+## Próximos passos e futuras melhorias
 
 ---
 
